@@ -24,3 +24,6 @@ Hier die Lösungen:
 
 ## Quick.html
 Die [`quick.html`](https://github.com/oxydemeton/fsg-tdot-2021/blob/main/quick.html) ermöglicht direkt zu einer Station einer Gruppe zu springen. 
+
+## Qr-Codes
+Die Qr-Codes wurden verwendet um die Ipdas direkt auf die Route für die entsprechende Gruppe zu bringen.

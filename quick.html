@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Quick links to Tdot</title>
+	<link rel="icon" href="https://fsggeldern.de/wp-content/uploads/2020/12/cropped-fsggeldern_icon-32x32.png"/>
+	<link rel="stylesheet" href="assets/basic.css">
+</head>
+<body>
+<h1>Links zu den Stationen pro Gruppe</h1>
+
+	<!--
+		Stationen mit Index					#stationenÄnderung
+				Mensa					:	0
+			Kunst/Musik 				:	1
+		Gesellschaftswissenschaften		:	2
+				Sprachen				:	3
+			Naturwissenschaften			:	4
+				Sporthalle				:	5
+	-->
+
+<form action="index.php" method="GET">
+	<select name="station">
+        <option value="0">Mensa</option>
+        <option value="1">Kunst/Musik</option>
+        <option value="2">Gesellschaftswissenschaften</option>
+        <option value="3">Sprachen</option>
+        <option value="4">Naturwissenschaften</option>
+		<option value="5">Sporthalle</option>
+    </select>
+	<select name="gruppe">
+        <option value="0">Gruppe 1</option>
+        <option value="1">Gruppe 2</option>
+        <option value="2">Gruppe 3</option>
+        <option value="3">Gruppe 4</option>
+        <option value="4">Gruppe 5</option>
+    </select>
+	<br>
+	<input type="checkbox" name="l" value="1"> Letzter Durchgang
+	<br>
+	<input type="hidden" name="q" value="1">
+	<input type="submit" value="Weiter">
+ </form>
+<br>
+<br>
+<a href="qr/index.html"> Link zu den QR Codes</a>
+
+
+</body>
+</html>
